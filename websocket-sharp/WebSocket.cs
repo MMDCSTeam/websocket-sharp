@@ -148,7 +148,7 @@ namespace WebSocketSharp
     static WebSocket ()
     {
       EmptyBytes = new byte[0];
-      FragmentLength = 1016;
+      FragmentLength = 1016*8;
       RandomNumber = new RNGCryptoServiceProvider ();
     }
 
